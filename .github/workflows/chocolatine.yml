@@ -10,7 +10,7 @@ on:
 
 env:
   MIRROR_URL: "git@github.com:RemiMaigrot/Mirror.git"
-  EXECUTABLES:  "bsq"
+  EXECUTABLES:  "src/main.c"
   ARGUMENTS:  ""
 
 jobs:
