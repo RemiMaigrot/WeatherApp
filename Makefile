@@ -18,6 +18,7 @@ OBJ	=	$(SRC:.c=.o)
 
 all:	$(NAME) clean
 
+
 $(NAME):	$(OBJ)
 	make -C lib/my
 	gcc -o $(NAME) $(OBJ) -I./include -L./lib/ -lmy
