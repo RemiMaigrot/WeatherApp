@@ -1,24 +1,19 @@
-# README
+#README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Description
+WeatherApp is a web application showing the weather of a city:
 
-Things you may want to cover:
+- the description of the day's weather
+- air humidity
+- the wind speed
+- the temperature in °C
 
-* Ruby version
+#Usage
+git clone "git@github.com:RemiMaigrot/WeatherApp.git"
+cd ./WeatherApp
+bundle install
+rails server
+go to web && type --> localhost:3000
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#Contributor(s)
+Rémi Maigrot
