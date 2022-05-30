@@ -1,0 +1,22 @@
+<%= stylesheet_link_tag 'home.css' %>
+
+<div class="content">
+    <div class="country">
+        <%= @data["name"]%>
+    </div>
+    <div class="icon">
+        <img src="http://openweathermap.org/img/wn/<%= @data["weather"].first["icon"] %>@2x.png">
+    </div>
+    <div class="description">
+        <%= @data["weather"].first["description"]%>
+    </div>
+    <div class="humidity">
+        <%= @data["main"]["humidity"]%>
+    </div>
+    <div class="speed_wind">
+        <%= @data["wind"]["speed"]%>
+    </div>
+    <div class="temp">
+        <%= (@data["main"]["temp"] - 273.15) %>
+    </div>
+</div>

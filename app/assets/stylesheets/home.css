@@ -1,0 +1,24 @@
+body
+{
+    background-color: lightblue;
+}
+
+.content
+{
+    margin: auto;
+    background-image: url('https://i.pinimg.com/236x/12/8d/2f/128d2fc3745429e1cb2b5b55648cc244--iphone-backgrounds-phone-wallpapers.jpg');
+    height: 400px;
+    width: 236px;
+    border-radius: 3px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.country
+{
+    font-size: 25px;
+}
