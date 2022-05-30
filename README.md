@@ -9,11 +9,15 @@ WeatherApp is a web application showing the weather of a city:
 - the temperature in °C
 
 ## Usage
-git clone "git@github.com:RemiMaigrot/WeatherApp.git" 
-cd ./WeatherApp 
-bundle install 
-rails server 
-go to web && enter --> localhost:3000 
+git clone "git@github.com:RemiMaigrot/WeatherApp.git"
+
+cd ./WeatherApp
+
+bundle install
+
+rails server
+
+go to web && enter --> localhost:3000
 
 ## Contributor(s)
 Rémi Maigrot
